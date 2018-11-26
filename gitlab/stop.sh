@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 HERE=`cd $(dirname $0); pwd`
 
-sudo docker pull gitlab/gitlab-ce
+sudo docker stop gitlab
+sudo docker rm gitlab
