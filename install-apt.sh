@@ -9,9 +9,6 @@ sudo cp $HERE/sources.list /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get upgrade -y
 
-# basic tool
-sudo apt-get install -y tmux htop ncdu build-essetial
-
 # git config file
 cp $HERE/.gitconfig ~/.gitconfig
 cp $HERE/.tmux.conf ~/.tmux.conf
