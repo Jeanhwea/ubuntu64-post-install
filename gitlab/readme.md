@@ -21,7 +21,7 @@ sudo docker run --detach \
 ## view log
 
 ```shell
-udo docker logs -f gitlab
+sudo docker logs -f gitlab
 ```
 
 ## remove gitlab runner
