@@ -9,4 +9,4 @@ git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/fugitive
 
 mv $HERE/.vimrc ~/.vimrc
 
-sudo apt-get install vim
+sudo apt-get install -y vim

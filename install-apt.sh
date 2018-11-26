@@ -7,10 +7,10 @@ HERE=`cd $(dirname $0); pwd`
 [ ! -f /etc/apt/sources.list.old ] && sudo mv /etc/apt/sources.list /etc/apt/sources.list.old
 sudo cp $HERE/sources.list /etc/apt/sources.list
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 
 # basic tool
-sudo apt-get install tmux htop ncdu build-essetial
+sudo apt-get install -y tmux htop ncdu build-essetial
 
 # git config file
 cp $HERE/.gitconfig ~/.gitconfig
