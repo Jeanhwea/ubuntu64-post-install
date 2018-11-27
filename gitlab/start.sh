@@ -9,4 +9,4 @@ sudo docker run --detach \
   --volume /srv/gitlab/config:/etc/gitlab \
   --volume /srv/gitlab/logs:/var/log/gitlab \
   --volume /srv/gitlab/data:/var/opt/gitlab \
-  gitlab/gitlab-ce:latest
+  gitlab/gitlab-ce:20181127
