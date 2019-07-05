@@ -36,3 +36,6 @@ sudo add-apt-repository \
 sudo apt-get install -y docker-ce
 sudo mkdir -p /etc/docker && cp $HERE/daemon.json /etc/docker/daemon.json
 sudo service docker restart
+
+# cleanup
+sudo apt-get autoclean && apt-get clean
