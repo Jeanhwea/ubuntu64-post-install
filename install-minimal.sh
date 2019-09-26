@@ -23,6 +23,7 @@ sudo apt-get install -y \
      ncdu \
      net-tools \
      openssh-server \
+     silversearcher-ag \
      software-properties-common \
      tmux \
      unzip \
